@@ -1,3 +1,4 @@
+import numpy as np
 import datetime as dt
 # 1 print twinkle twinkle rhymes
 print("""Twinkle, twinkle, little star,
@@ -30,5 +31,11 @@ Twinkle, twinkle, little star.""")
 # Write python in terminal and do arithmetic operations
 print(5*1)
 
-# 3 exteenal module
+# 3 external module
+# built in modules
 print(dt.datetime.now())
+
+# external modules
+# create a numpy array
+arr = np.array([1, 2, 3, 4])
+print(np.sum(arr))
