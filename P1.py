@@ -1,4 +1,5 @@
-# print twinkle twinkle rhymes
+import datetime as dt
+# 1 print twinkle twinkle rhymes
 print("""Twinkle, twinkle, little star,
 How I wonder what you are!
 Up above the world so high,
@@ -25,6 +26,9 @@ Though I know not what you are,
 Twinkle, twinkle, little star.""")
 
 
-# REPL Read Evaluate Print Loop
+# 2 REPL Read Evaluate Print Loop
+# Write python in terminal and do arithmetic operations
 print(5*1)
-5*2
+
+# 3 exteenal module
+print(dt.datetime.now())
