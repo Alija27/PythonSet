@@ -23,3 +23,8 @@ As your bright and tiny spark
 Lights the traveler in the dark,
 Though I know not what you are,
 Twinkle, twinkle, little star.""")
+
+
+# REPL Read Evaluate Print Loop
+print(5*1)
+5*2
