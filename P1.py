@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import datetime as dt
 # 1 print twinkle twinkle rhymes
@@ -39,3 +40,12 @@ print(dt.datetime.now())
 # create a numpy array
 arr = np.array([1, 2, 3, 4])
 print(np.sum(arr))
+
+# 4 Write a python program to print the contents of the directory using the os module.
+# specifify the directory you want to use
+directory = os.getcwd()  # get current working directory
+# list all the files inside the directory
+contents = os.listdir(directory)
+print(f"Contents of the directory'{directory}':")
+for item in contents:
+    print(item)
